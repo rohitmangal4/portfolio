@@ -1,6 +1,6 @@
 import react from "react";
 import { motion } from "framer-motion";
-import Image from "../assets/myportPhoto.png"
+import Image from "../assets/myportPhoto.png";
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="relative"
           >
-            <div className="absolute inset-0 bg-cyan-500/50 blur-2xl w-96"></div>
+            {/* <div className="absolute inset-0 bg-cyan-500/50 blur-2xl "></div> */}
             <img
               src={Image}
               alt="About Me"
@@ -37,16 +37,20 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300">
-              I'm a passionate developer with a keen eye for design and a love
-              for creating seamless user experiences. With [X] years of
-              experience in web development, I've had the opportunity to work on
-              diverse projects that have shaped my expertise in modern web
+              I'm a passionate Full Stack Developer with a keen eye for design
+              and a love for creating seamless user experiences. Currently, I'm
+              working as an intern, gaining hands-on experience in web
+              development with a focus on the MERN stack and UI/UX design. Over
+              the course of my internship, I've had the opportunity to work on
+              diverse projects, enhancing my expertise in modern web
               technologies.
             </p>
             <p className="text-lg text-gray-300">
-              When I'm not coding, you can find me [your interests/hobbies]. I
-              believe in continuous learning and staying updated with the latest
-              industry trends.
+              When I'm not coding, you can find me exploring new technologies,
+              working on personal design projects, or enjoying outdoor
+              activities. I believe in continuous learning and staying updated
+              with the latest industry trends to deliver innovative and
+              user-centric solutions.
             </p>
             <div className="flex gap-4">
               <a
