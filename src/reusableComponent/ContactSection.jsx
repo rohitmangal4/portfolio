@@ -61,7 +61,7 @@ const Contact = () => {
             </p>
             <div className="flex justify-start gap-6 w-full mt-4">
               <a
-                href="mangaleswarandev.official2001@gmail.com"
+                href="mailto:mangaleswarandev.official2001@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 rounded-full bg-cyan-500/20 border border-cyan-500/70 flex justify-center items-center"
@@ -77,7 +77,7 @@ const Contact = () => {
                 <FiGithub className="w-7 h-7 text-cyan-400" />
               </a>
               <a
-                href="www.linkedin.com/in/mangaleswaran-mn"
+                href="https://www.linkedin.com/in/mangaleswaran-mn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 rounded-full bg-cyan-500/20 border border-cyan-500/70 flex justify-center items-center"
