@@ -61,7 +61,7 @@ const Contact = () => {
             </p>
             <div className="flex justify-start gap-6 w-full mt-4">
               <a
-                href="#"
+                href="mangaleswarandev.official2001@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 rounded-full bg-cyan-500/20 border border-cyan-500/70 flex justify-center items-center"
@@ -69,7 +69,7 @@ const Contact = () => {
                 <MdOutlineMail className="w-7 h-7 text-cyan-400" />
               </a>
               <a
-                href="#"
+                href="https://github.com/rohitmangal4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 rounded-full bg-cyan-500/20 border border-cyan-500/70 flex justify-center items-center"
@@ -77,7 +77,7 @@ const Contact = () => {
                 <FiGithub className="w-7 h-7 text-cyan-400" />
               </a>
               <a
-                href="#"
+                href="www.linkedin.com/in/mangaleswaran-mn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 rounded-full bg-cyan-500/20 border border-cyan-500/70 flex justify-center items-center"
@@ -108,28 +108,28 @@ const Contact = () => {
                 name="name"
                 required
                 placeholder="Enter your name *"
-                className="w-full px-4 py-3 rounded-lg text-cyan-500/80 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
+                className="w-full px-4 py-3 rounded-lg text-cyan-500 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
               />
               <input
                 type="email"
                 name="email"
                 required
                 placeholder="Enter your Email *"
-                className="w-full px-4 py-3 rounded-lg text-cyan-500/50 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
+                className="w-full px-4 py-3 rounded-lg text-cyan-500 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
               />
               <input
                 type="tel"
                 name="phone"
                 required
                 placeholder="Enter your Phone *"
-                className="w-full px-4 py-3 rounded-lg text-cyan-500/50 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
+                className="w-full px-4 py-3 rounded-lg text-cyan-500 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
               />
               <textarea
                 name="message"
                 required
                 placeholder="Message *"
                 rows={4}
-                className="w-full px-4 py-3 rounded-lg text-cyan-500/50 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
+                className="w-full px-4 py-3 rounded-lg text-cyan-500 bg-white/5 border border-white/10 focus:border-cyan-500 focus:bg-cyan-500/5 outline-none transition-colors duration-300"
               ></textarea>
 
               <button
