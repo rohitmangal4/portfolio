@@ -132,7 +132,7 @@ const About = () => {
                 View Projects
               </a>
               <a
-                href="src\assets\Mangaleswaran M N - CV.pdf"
+                href="/Mangaleswaran M N - CV.pdf"
                 download="Mangaleswaran_CV.pdf"
                 className="px-6 py-2 rounded-full border border-white/10 text-white font-medium hover:bg-white/5 transition-colors duration-300"
               >
